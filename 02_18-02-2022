@@ -1,0 +1,13 @@
+sum=0
+n=int(input('enter number:'))
+f=1
+for i in range(1,n+1):
+	f=f*i
+	sum=sum+f
+print('factorial of a given no is:',f)
+print('sum of factorials upto',n,"=",sum)
+
+output:-
+enter number:20
+factorial of a given no is: 2432902008176640000
+sum of factorials upto 20 = 2561327494111820313
