@@ -1,0 +1,43 @@
+print("This Program Print numbers in an Order upto N")
+
+n = int(input("Enter The Value of N:"))
+
+for i in range(n):
+
+    for j in range(i + 1):
+
+        print(j+1, end=" ")
+
+    print()
+
+for i in range(n):
+
+    for j in range(n - i - 1):
+
+        print(j+1, end=" ")
+
+    print()
+
+Output:-
+
+This Program Print numbers in an Order upto N
+
+Enter The Value of N:5
+
+1 
+
+1 2 
+
+1 2 3 
+
+1 2 3 4 
+
+1 2 3 4 5 
+
+1 2 3 4 
+
+1 2 3 
+
+1 2 
+
+1
