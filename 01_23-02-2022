@@ -1,0 +1,35 @@
+n=int(input('enter n:'))
+
+a=[]
+
+for i in range (n):
+
+    num=int(input('enter number:'))
+
+    a.append(num)
+
+print(a)
+
+print('maximum value in the list is:',max(a))
+
+print('minimum value in the list is:',min(a))
+
+output:
+
+enter n:5
+
+enter number:17
+
+enter number:26
+
+enter number:30
+
+enter number:44
+
+enter number:60
+
+[17, 26, 30, 44, 60]
+
+maximum value in the list is: 60
+
+minimum value in the list is: 17
