@@ -1,0 +1,57 @@
+a=[]
+
+s=int(input('enter the sixe of list:'))
+
+for i in range(s):
+
+    b=int(input('enter number:'))
+
+    a.append(b)
+
+i=0
+
+j=s-1
+
+while(i<j):
+
+    t=a[i]
+
+    a[i]=a[j]
+
+    a[j]=t
+
+    i=i+1
+
+    j=j-1
+
+print('list after reverse:')
+
+for i in range(s):
+
+    print(a[i])
+
+output:
+
+enter the sixe of list:5
+
+enter number:17
+
+enter number:26
+
+enter number:30
+
+enter number:44
+
+enter number:60
+
+list after reverse:
+
+60
+
+44
+
+30
+
+26
+
+17
