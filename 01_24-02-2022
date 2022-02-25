@@ -1,0 +1,35 @@
+l = [0, 1, 2, 3, 4, 5]
+
+list = []
+
+for num in l :
+
+    if num == 0 or num == 1 :
+
+        continue
+
+    for i in range(2, num // 2 + 1) :
+
+        if num % i == 0 :
+
+            break
+
+        else :
+
+            list.append(num)
+
+if len(list) :
+
+     
+
+    print("Prime Number : ",end = "-> ")
+
+    for ans in list :
+
+        print(ans, end = " ")
+
+     
+
+else :
+
+    print("No any number from the given list is Prime")
