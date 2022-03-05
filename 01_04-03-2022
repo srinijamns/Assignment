@@ -1,0 +1,19 @@
+n=int (input ( ) )
+
+1=input ().split()
+
+t=[]
+
+for i in 1:
+
+t.append(int (i))
+
+for i in t:
+
+if i not in x:
+
+x.append (i)
+
+x.sort (reverse=True)
+
+print (x [2])
